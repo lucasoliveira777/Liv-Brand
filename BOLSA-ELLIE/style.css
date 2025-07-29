@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* SEÇÃO DO PRODUTO */
+.product-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-image img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-info {
+  margin-top: 20px;
+}
+
+.product-name {
+  font-size: 26px;
+  margin: 5px 0;
+}
+
+.product-desc {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* INSTAGRAM CTA */
+.instagram-cta {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.instagram-btn img {
+  width: 40px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-btn img:hover {
+  transform: scale(1.1);
+}
+
+/* AVALIAÇÃO */
+.rating-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.stars {
+  font-size: 32px;
+  color: #ccc;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.stars span:hover,
+.stars span.active {
+  color: #f5c518; /* amarelo */
+}
+
+textarea {
+  width: 90%;
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #333;
+}
